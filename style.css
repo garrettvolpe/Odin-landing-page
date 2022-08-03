@@ -30,12 +30,31 @@
 
 .header > .container{
     display: flex;
+}
 
+.container > .left-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    border: solid red 2px;
+    width: 25%;
+}
+
+.container > .left-side > h1 {
+    font-size: 48px;
+    font-weight: 900px;
 }
 
 .content {
+    display: flex;
+    justify-content: center;
     background-color: white;
     height: 500px;
+}
+.content > h1 {
+    font-size: 32px;
+    font-weight: 900px;
+    color: #1F2937
 }
 
 .quote {
