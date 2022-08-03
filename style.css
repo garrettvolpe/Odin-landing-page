@@ -1,0 +1,44 @@
+
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    align-items: center;
+    padding-right: 15%;
+}
+
+.nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem ;
+    list-style-type: none;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 15%;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header > .container{
+    display: flex;
+
+}
+
+.content {
+    background-color: white;
+    height: 500px;
+}
+
+.quote {
+    background-color: gray;
+    height: 500px;
+}
