@@ -1,4 +1,4 @@
-.header{
+.header, .footer{
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -113,7 +113,7 @@
 
 .quoted-text{
     text-align: center;
-    padding-top: 10%;
+    padding-top: 8%;
 
 }
 
@@ -132,17 +132,45 @@
 }
 
 .signup-container{
-    padding: 1rem 20rem;
     background-color: #3882f6;
     color: #F9FAF8;
+    width: 55%;
+    display: flex;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
-.signup-container > button {
+
+.signup-container > .left-side {
+    display: flex;
+    flex-direction: column;
+}   
+
+.signup-container > .left-side > *{
+    width: 450px;
+}
+
+.signup-container > .right-side{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.right-side > button {
     background-color: #3882f6;
     color: #F9FAF8;
+    width: 100px;
     padding: .2rem 1.2rem;
     border-radius: 8px;
     border: solid white 2px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
