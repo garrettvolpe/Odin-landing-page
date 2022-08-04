@@ -32,17 +32,36 @@
     display: flex;
 }
 
+.container{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
 .container > .left-side {
     display: flex;
+    margin-right: auto;
     flex-direction: column;
-    margin-left: 14%;
-    border: solid red 2px;
-    width: 25%;
+}
+
+.container > .right-side {
+    margin-left: auto;
 }
 
 .container > .left-side > h1 {
     font-size: 48px;
     font-weight: 900px;
+}
+.container > .left-side > p {
+    padding-right: 10%;
+}
+.container > .left-side > button {
+    width: 150px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: .8rem;
+    border-radius: 15px;
+    font-size: 18px;
 }
 
 .content {
